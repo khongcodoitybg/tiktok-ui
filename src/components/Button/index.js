@@ -18,17 +18,17 @@ function Button({
     children,
     leftIcon,
     rightIcon,
-    onclick,
+    onClick,
     passProps,
 }) {
     let Comp = 'button';
     const props = {
-        onclick,
+        onClick,
         ...passProps,
     };
 
     if (disabled) {
-        delete props.onclick;
+        delete props.onClick;
     }
 
     if (to) {

@@ -10,6 +10,10 @@
     padding-bottom: 8px;
 }
 
+.menu-body {
+    overflow-y: auto;
+}
+
 .menu-item {
     width: 100%;
     padding: 11px 16px;
@@ -30,6 +34,7 @@
 //Header
 .header {
     position: relative;
+    flex-shrink: 0;
     height: 50px;
     top: -8px;
 }

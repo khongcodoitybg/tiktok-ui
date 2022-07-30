@@ -45,6 +45,7 @@ const MENU_ITEMS = [
             ],
         },
     },
+
     {
         icon: <FontAwesomeIcon icon={faCircleQuestion} />,
         title: 'Feedback and help',
